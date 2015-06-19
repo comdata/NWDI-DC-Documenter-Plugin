@@ -221,13 +221,13 @@ public class DevelopmentComponentReportGeneratorTest extends AbstractXmlTestCase
     }
 
     private void mockFacetProvider(final Class facetProviderClass, final DevelopmentComponentType dcType) {
-        facetProvider = Mockito.mock(facetProviderClass);
+        /*facetProvider = Mockito.mock(facetProviderClass);
 
         Mockito.when(documentationFacetProviderFactory.getInstance(dcType)).thenReturn(
             new ArrayList<DocumentationFacetProvider<DevelopmentComponent>>() {
                 {
                     add(facetProvider);
                 }
-            });
+            });*/
     }
 }
